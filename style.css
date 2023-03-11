@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+ }
+ 
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+ }
+
+.banner-text h1{
+    font-size: 130px;
+ }
+
+ .banner-text p{
+    font-size: 40px;
+    font-style: italic;
+ }
+
+.banner-btn{
+    margin: 70px auto 0;
+}
+
+.slides{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+}
+
+.slides img{
+    width: 500px;
+}
+
+.slides h1{
+    font-size: 80px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.slides li{
+    font-size: 40px;
+    font-weight: 300;
+    max-width: 350px;
+}
+
+.slides h2{
+    font-size: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.slide1{
+    background: linear-gradient(454deg, #03b9f5, #53a6ff);
+}
+
+.slide2{
+    background: linear-gradient(454deg, #404c80, #53ff88);
+}
+
+.slide3{
+    background: linear-gradient(454deg, #9574ff, #ff5353);
+}
+
+.slide4{
+    background: linear-gradient(454deg, #f6f654, hsl(340, 88%, 57%));
+}
+
+.slide5{
+    background: linear-gradient(454deg, #54f654, hsl(180, 88%, 57%));
+}
+
